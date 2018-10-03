@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Admin</title>
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+</head>
+
+<body style="	background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container d-flex justify-content-center"> <a class="navbar-brand" href="home.html">
+        <i class="fa d-inline fa-lg fa-car"></i>
+        <b>FAMILY TRAVEL</b>
+      </a> </div>
+  </nav>
+  <div class="py-4" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center">Admin</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#jadwal" class="nav-link active show" aria-controls="jadwal" aria-selected="true" data-toggle="tab" id="jadwal-tab" role="tab">Input Jadwal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kendaraan" aria-controls="kendaraan" aria-selected="false" data-toggle="tab" id="kendaraan-tab" role="tab">Input Kendaraan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#supir" class="nav-link" aria-controls="supir" aria-selected="false" data-toggle="tab" id="supir-tab" role="tab">Input Data Supir</a>
+            </li>
+          </ul>
+          <div class="tab-content my-2" id="myTabContent">
+            <div class="tab-pane fade active show" id="jadwal" role="tabpanel" aria-labelledby="jadwal-tab" style="">
+              <h1 class="mb-4 text-center" style="">Input Jadwal </h1>
+              <form>
+                <div class="form-group"> <input type="text" class="form-control" placeholder="Waktu" id="form13"> </div>
+                <div class="form-group"> <input type="text" class="form-control" placeholder="Tujuan" id="form13"> </div>
+                <div class="form-group"> <small class="form-text text-muted text-right"></small> </div> <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="kendaraan" role="tabpanel" aria-labelledby="kendaraan-tab">
+              <h1 class="mb-4 text-center">Input Data Kendaraan </h1>
+              <form>
+                <div class="form-group"> <input type="text" class="form-control" placeholder="Plat Nomor" id="form13"> </div>
+                <div class="form-group"> <input type="text" class="form-control" placeholder="Merk Kendaraan" id="form13"> </div>
+                <div class="form-group"> <small class="form-text text-muted text-right"></small> </div> <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="supir" role="tabpanel" aria-labelledby="supir-tab">
+              <h1 class="mb-4 text-center" style="">Input Data Supir</h1>
+              <form>
+                <div class="form-group"> <input type="text" class="form-control" placeholder="Nama" id="form13"> </div>
+                <div class="form-group"> <input type="text" class="form-control" placeholder="Merk Kendaraan" id="form13"> </div>
+                <div class="form-group"> <input type="email" class="form-control" placeholder="Email" id="form14"> </div>
+                <div class="form-group"> <input type="password" class="form-control" placeholder="Password" id="form15"> <small class="form-text text-muted text-right"></small> </div> <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid d-block mx-auto rounded-circle" src="../../../../../Downloads/bobotohbanyol_Bh1REmQhVLZ.jpg" style="min-width: 125px; min-height: 125px; max-width: 250px; max-height: 250px;">
+          <div class="text-center my-2">
+            <p class="lead">Nama : King Eze</p>
+            <p class="lead">ID : EzeKasep</p><a class="btn btn-primary" href="#">Log Out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" style=""></script>
+</body>
+
+</html>
